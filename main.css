@@ -1,0 +1,28 @@
+  table {
+    border: none;
+  }
+  
+
+  table, th, td {
+  	border: 1px solid black;
+  	font-size: 30px;
+  	padding: 10px;
+    /*border: none;*/
+  }
+
+  .userInfo {
+  	/*display: none;*/
+    visibility: hidden;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  }
+
+  .userInfoTwo {
+    visibility: visible;
+    -webkit-transition: width 2s;
+  }
+
+
+  form {
+    background-color: blue;
+    padding: 40px;
+  }
