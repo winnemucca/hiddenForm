@@ -15,10 +15,10 @@ $(document).on('ready', function() {
 
 
 
-  	$('.one').append('user ' + user);
-  	$('.two').append('bio ' + bio);
-  	$('.three').append('books ' + books);
-  	$('.four').append('js libraries ' + library);
+  	$('.one').empty().append('user ' + user);
+  	$('.two').empty().append('bio ' + bio);
+  	$('.three').empty().append('books ' + books);
+  	$('.four').empty().append('js libraries ' + library);
 
 
   	
