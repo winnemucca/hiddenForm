@@ -27,7 +27,7 @@ $(document).on('ready', function() {
   $('.show').on('click', function() {
       $(this).toggleClass('hide');
     $('.userInfo').toggleClass("userInfoTwo");
-      $(this).text('hide form');
+      // $(this).text('hide form');
 
         // nesting a text change only works once
         // $('.hide').on('click', function() {
@@ -40,6 +40,20 @@ $(document).on('ready', function() {
 
 
     });
+// 
+      $( "button" ).on('click', function() {    // On click of show/hide button...
+
+    // Show the form and change the button text
+    
+    if( $("form").hasClass("userInfoTwo")) {
+      $( "button" ).empty().append("Hide Form")
+    }
+    else {
+      $( "button" ).empty().append("Show Form")
+    }
+
+  })
+
   
 
     
